@@ -7,12 +7,14 @@ import org.testng.annotations.Test;
 
 public class Class1 {
 	WebDriver driver;
+	//test
 	@Test
 	public void firsdrivt()
 	{
 System.setProperty("webdriver.gecko.driver", "Drivers/geckodriver.exe");
 		driver=new FirefoxDriver();
 		driver.get("http://www.facebook.com");
+		driver.close();
 	}
 
 }
